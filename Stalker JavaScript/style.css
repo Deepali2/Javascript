@@ -1,0 +1,12 @@
+body {
+  color: purple;
+  text-align: center;
+  padding-top: 10%;
+  background-image: url(https://images.unsplash.com/photo-1529927066849-79b791a69825?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=62b4436955bfd4ff22942d26abebb3c2&auto=format&fit=crop&w=1949&q=80);
+  background-size: cover;
+  
+  
+}
+h2 {
+  color: green
+}
