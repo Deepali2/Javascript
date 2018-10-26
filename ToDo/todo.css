@@ -1,0 +1,37 @@
+body, html {
+  height: 100%;  
+}
+
+.bg-image {
+  background-image: url(https://images.unsplash.com/photo-1537132253452-30be6a87af05?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8d7d79edc901e3b5199ee0ddeb003d1c&auto=format&fit=crop&w=800&q=60);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 85%;
+  padding-top: 10px;
+  padding-bottom: 70px;
+  border: 3px solid #f1f1f1;
+  background-color: rgba(0, 0, 0, 0.3);  
+  color: white;
+  border-radius: 15px;
+}
+
+.jumbotron {  
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.303);               
+}
+
+ul {
+  list-style-type: none;
+  font-size: 2rem;
+}
