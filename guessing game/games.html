@@ -9,13 +9,23 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- css style sheet link -->
     <script type="text/javascript" src="game.js"></script>
-    <title>Guessing Game</title>
+    <title>JavaScript Games</title>    
   </head>
   <body>
-    <div class="container">
-      <div class="jumboscript">
-        <h1 class="display-5 text-center">Guessing Game</h1>
+   <div class="bg-image"></div>
+    <div class="container bg-text">
+      <div class="jumbotron text-center">
+        <h1 class="display-5">JavaScript Games</h1> 
+        <h3>To quit a game you may type 'quit' in the prompt</h3>       
       </div>
+      <button class="btn btn-success" onclick="kebabToSnake()">Kebab to Snake</button>
+      <button class="btn btn-light" onclick="factorial()">Factorial</button>
+      <button class="btn btn-info" onclick="numbersDivBy5And3()">Numbers divisible by 5 and 3 between 5 and 50</button>
+      <button class="btn btn-danger" onclick="odds()">Odd numbers between 300 and 333</button>
+      <button class="btn btn-primary" onclick="evens()">Evens between 10 and 40</button>
+      <button class="btn btn-warning" onclick="annoyomatic()">Annoyomatic</button>
+      <button class="btn btn-dark" onclick="print()">Print numbers -10 to 19</button>
+      <button class="btn btn-success" onclick="guessingGame()">Guessing Game</button>
     </div>
 
     <!-- Optional JavaScript -->
@@ -25,4 +35,4 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="game.css">  
   </body>
-</html> -->
+</html>
